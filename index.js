@@ -7,3 +7,12 @@ function checkPrime(num){
     }
 }
 console.log(checkPrime(8))
+
+function evenOdd(num){
+    if(num%2==0){
+        return true
+    }else{
+        return false
+    }
+}
+console.log(evenOdd(5))
